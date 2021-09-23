@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hotel</string>
+    <string name="button1">BOOK</string>
+    <string name="button2">BOOK</string>
+    <string name="button3">BOOK</string>
+    <string name="button4">Next</string>
+</resources>
