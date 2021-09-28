@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Calendar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gray</item>
+        <item name="colorPrimaryVariant">@android:color/holo_green_dark</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+    </style>
+</resources>
