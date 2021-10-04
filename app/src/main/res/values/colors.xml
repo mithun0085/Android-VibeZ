@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">@android:color/holo_green_dark</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorSplash">#131313</color>
+    <color name="purple_700">#009688</color>
+    <color name="teal_200">#009688</color>
+    <color name="teal_700">#009688</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green1">#4AA02C</color>
+    <color name="g2">#66CDAA</color>
+    <color name="g3">#20B2AA</color>
+    <color name="g4">#4E8975</color>
+    <color name="gray">#b2beb5</color>
+    <color name="red">#FFF48FB1</color>
+    <color name="yellow">#FFE53935</color>
+    <color name="green">#ecf3d5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="light_pink">#fad2e0</color>
+    <color name="pink">#ff669900</color>
+    <color name="underline">#D8D6D6</color>
+</resources>

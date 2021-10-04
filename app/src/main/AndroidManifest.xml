@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.weddingdiary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".UpdateActivityH"
+            android:exported="true"
+            android:parentActivityName=".MainActivity2"/>
+        <activity
+            android:name=".AddActivity2"
+            android:exported="true"
+            android:label="Add event"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:label="Day Planner"
+            android:parentActivityName=".MainActivity2"/>
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+
+        <activity android:name=".MainActivity"
+            android:label="Check List"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".GuestActivity3"
+            android:exported="true"
+            android:label="Guest List"
+            android:parentActivityName=".MainDashboard3" />
+        <activity
+            android:name=".BudgetMenu3"
+            android:exported="true"
+            android:label="Wedding Budget List"
+            android:parentActivityName=".MainDashboard3" />
+        <activity
+            android:name=".MainDashboard3"
+            android:exported="true"
+            android:label="Wedding Diary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="true"
+            android:parentActivityName=".MainDashboard3" />
+
+        <activity
+            android:name=".AddActivity"
+            android:colorMode="default"
+            android:exported="true"
+            android:label="Add New Guest"
+            android:parentActivityName=".MainDashboard3" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".cake"
+            android:exported="true"
+            android:label="cake"
+            android:parentActivityName=".BudgetMenu3"
+            />
+        <activity
+            android:name=".decoration"
+            android:exported="true"
+            android:label="Decoration"
+            android:parentActivityName=".BudgetMenu3"
+            />
+
+        <activity
+            android:name=".photography4"
+            android:exported="true"
+            android:label="Dinesh Wanigarathna Photography"
+            android:parentActivityName=".photography2"
+            />
+        <activity
+            android:name=".photography3"
+            android:exported="true"
+            android:label="Rasanga Dissanayake Photography"
+            android:parentActivityName=".photography2"
+            />
+        <activity
+            android:name=".photography2"
+            android:exported="true"
+            android:label="Choose A Photographer"
+            android:parentActivityName=".BudgetMenu3"
+            >
+
+        </activity>
+        <activity
+            android:name=".photography1"
+            android:exported="true"
+            android:label="Geeshan Bandara Photography"
+            android:parentActivityName=".photography2"
+            />
+
+        <activity
+            android:name=".invitationCalc"
+            android:exported="true"
+            android:label="Choose A Invitation Card Design"
+            android:parentActivityName=".BudgetMenu3"
+            >
+
+        </activity>
+        <activity android:name=".LatteActivity"
+            android:label="Invitation Card Cal"
+            android:parentActivityName=".invitationCalc"
+            />
+        <activity android:name=".SummaryActivity"
+            android:label="Summary"
+            android:parentActivityName=".InfoActivity"
+            />
+        <activity android:name=".InfoActivity"
+            android:label="Invitation Info"
+            android:parentActivityName=".BudgetMenu3"
+            />
+
+        <provider
+            android:name=".Database.OrderProvider"
+            android:authorities="com.example.orderapp"
+            android:exported="true" />
+
+        <activity
+            android:name=".vehicle"
+            android:exported="true"
+            android:label="Vehicle"
+            android:parentActivityName=".BudgetMenu3"
+            />
+        <activity
+            android:name=".Music"
+            android:exported="true"
+            android:label="Music"
+            android:parentActivityName=".BudgetMenu3"
+            />
+
+        <activity
+            android:name=".MakeupActivity"
+            android:exported="true"
+            android:label="Artist Information"
+            android:parentActivityName=".MakeupMain"
+            />
+        <activity
+            android:name=".MakeupMain"
+            android:exported="true"
+            android:label="Makeup Artists"
+            android:parentActivityName=".BudgetMenu3"
+            />
+        <activity
+            android:name=".DressMain"
+            android:exported="true"
+            android:label="Dresses"
+            android:parentActivityName=".BudgetMenu3"
+            />
+        <activity
+            android:name=".DressActivity"
+            android:exported="true"
+            android:label="Dress Information"
+            android:parentActivityName=".DressMain"
+            />
+        <activity
+            android:name=".HotelActivity"
+            android:exported="true"
+            android:label="Hotel Information"
+            android:parentActivityName=".HotelMain"
+            />
+        <activity
+            android:name=".HotelMain"
+            android:exported="true"
+            android:label="Hotels"
+            android:parentActivityName=".BudgetMenu3"
+            />
+    </application>
+
+</manifest>

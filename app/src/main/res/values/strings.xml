@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Wedding Diary</string>
+    <string name="save">Save</string>
+    <string name="new_task">New Task</string>
+    <string name="tasks">Check List</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="luxury">Best Design Used By Millions Of Couples To Attract Their Loving Ones!</string>
+    <string name="semiluxury">Best Budget Design Used By Millions Of Couples To Attract Their Loving Ones! </string>
+
+
+</resources>
