@@ -6,11 +6,59 @@
     android:layout_height="match_parent"
     tools:context=".Music">
 
+    <Button
+        android:id="@+id/btnorder6"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="#669900"
+        android:text="ORDER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnorder5"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#669900"
+        android:text="ORDER"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnorder8"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#669900"
+        android:text="ORDER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnorder7"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginBottom="31dp"
+        android:backgroundTint="#669900"
+        android:text="ORDER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="146dp"
         android:layout_height="136dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="112dp"
         android:layout_marginEnd="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -21,7 +69,7 @@
         android:layout_width="148dp"
         android:layout_height="138dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView18"
         app:srcCompat="@drawable/bravo" />
@@ -31,19 +79,19 @@
         android:layout_width="142dp"
         android:layout_height="131dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/btnorder5"
         app:srcCompat="@drawable/nights" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="144dp"
         android:layout_height="134dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="14dp"
         android:layout_marginEnd="36dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/btnorder6"
         app:srcCompat="@drawable/planet" />
 
     <TextView
@@ -152,10 +200,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="56dp"
         android:text="Rs 12000.00"
         android:textColor="#FFE53935"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
@@ -187,10 +233,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="100dp"
-        android:layout_marginBottom="56dp"
         android:text="Rs 15000.00"
         android:textColor="#FFE53935"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26" />
 

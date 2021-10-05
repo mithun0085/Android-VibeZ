@@ -6,12 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".vehicle">
 
+    <Button
+        android:id="@+id/btnorder4"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#669900"
+        android:text="ORDER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnorder3"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#669900"
+        android:text="ORDER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnorder1"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#669900"
+        android:text="ORDER"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnorder2"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="56dp"
+        android:backgroundTint="#669900"
+        android:text="ORDER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        tools:ignore="TouchTargetSizeCheck" />
+
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="158dp"
         android:layout_height="144dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="84dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/bmw" />
@@ -20,8 +68,8 @@
         android:id="@+id/imageView5"
         android:layout_width="152dp"
         android:layout_height="142dp"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="28dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/prado" />
@@ -31,19 +79,19 @@
         android:layout_width="150dp"
         android:layout_height="145dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/btnorder1"
         app:srcCompat="@drawable/benz" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="159dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="24dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/btnorder2"
         app:srcCompat="@drawable/premio" />
 
     <TextView
@@ -95,13 +143,14 @@
         android:layout_width="243dp"
         android:layout_height="33dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="152dp"
         android:text="Vehicles"
-        android:textStyle="bold"
         android:textColor="#009688"
         android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

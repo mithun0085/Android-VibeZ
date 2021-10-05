@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,12 +12,15 @@ import android.widget.Toast;
 
 import com.example.weddingdiary.Utils.DBHelper;
 
+import org.w3c.dom.Text;
+
 
 public class MainActivity3 extends AppCompatActivity {
 
     EditText username, password, repassword, age, email;
     Button signup, signin;
     DBHelper DB;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +36,7 @@ public class MainActivity3 extends AppCompatActivity {
         signin = (Button) findViewById(R.id.btnsignin);
         DB = new DBHelper(this);
 
+
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -40,6 +45,7 @@ public class MainActivity3 extends AppCompatActivity {
                 String repass = repassword.getText().toString();
                 String ag = age.getText().toString();
                 String emai = email.getText().toString();
+                validateEmailAddress(email);
 
                 if(user.equals("")||pass.equals("")||repass.equals("")||ag.equals("")||emai.equals(""))
                     Toast.makeText(MainActivity3.this, "Please enter all the fields", Toast.LENGTH_SHORT).show();
@@ -48,10 +54,11 @@ public class MainActivity3 extends AppCompatActivity {
                         Boolean checkuser = DB.checkusername(user);
                         if(checkuser==false){
                             Boolean insert = DB.insertData(user, pass, ag, emai);
-                            if(insert==true){
-                                Toast.makeText(MainActivity3.this, "Registered successfully", Toast.LENGTH_SHORT).show();
+                            if(insert==false){
+                                Toast.makeText(MainActivity3.this, "Registered successfully!", Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
                                 startActivity(intent);
+
 
                             }else{
                                 Toast.makeText(MainActivity3.this, "Registration failed", Toast.LENGTH_SHORT).show();
@@ -66,7 +73,6 @@ public class MainActivity3 extends AppCompatActivity {
                 }
 
 
-
             }
         });
 
@@ -79,6 +85,24 @@ public class MainActivity3 extends AppCompatActivity {
 
             }
         });
+
+
     }
+
+    private boolean validateEmailAddress(EditText email){
+        String emailInput = email.getText().toString();
+
+        if (!emailInput.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(emailInput).matches()){
+            Toast.makeText(MainActivity3.this, "Email Validated Succsessfully!",Toast.LENGTH_SHORT).show();
+            return true;
+        }else{
+            Toast.makeText(MainActivity3.this,"Invalid Email Address!",Toast.LENGTH_SHORT).show();
+            return true;
+        }
+    }
+
+
+
+
 
 }
