@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/Android Studio Projects/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/Android Studio Projects/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_main3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/Android Studio Projects/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_main_dashboard3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/Android Studio Projects/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_music.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/Android Studio Projects/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_photography2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/Android Studio Projects/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_photography4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/Android Studio Projects/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_vehicle.xml" value="0.25416666666666665" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/drawable/sub.xml" value="0.17777777777777778" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_add2.xml" value="0.20102564102564102" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_budget_menu3.xml" value="0.20102564102564102" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_cake.xml" value="0.20102564102564102" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_dress.xml" value="0.20102564102564102" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_info.xml" value="0.20102564102564102" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_main2.xml" value="0.20102564102564102" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_music.xml" value="0.20102564102564102" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_photography1.xml" value="0.20102564102564102" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_photography2.xml" value="0.20102564102564102" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_photography3.xml" value="0.20102564102564102" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_photography4.xml" value="0.20102564102564102" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_summary.xml" value="0.20102564102564102" />
+        <entry key="..\:/New folder/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_update_h.xml" value="0.20102564102564102" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/drawable/ic_guest.xml" value="0.2703125" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_add.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_add2.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_budget_menu3.xml" value="0.264" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_day_planner_welcom.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_guest3.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_home.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_login.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_main.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_main2.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_main3.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_main_dashboard3.xml" value="0.264" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_splash.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_update.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/activity_update_h.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/my_row.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/my_row2.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/nav_header.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/new_task.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/layout/task_layout.xml" value="0.1721014492753623" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/menu/drawer_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/menu/my_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/WeddingDiary8/WeddingDiary/app/src/main/res/menu/my_menu2.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
